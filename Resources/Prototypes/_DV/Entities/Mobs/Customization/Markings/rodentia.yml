@@ -1,0 +1,25 @@
+﻿- type: marking
+  id: RodentiaHeadTopEarDefault
+  markingCategory: HeadTop
+  bodyPart: HeadTop
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type: !type:TattooColoring
+  sprites:
+  - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
+    state: mouse
+  - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
+    state: mouse_overlay
+
+- type: marking
+  id: RodentiaTailDefault
+  markingCategory: Tail
+  bodyPart: Tail
+  speciesRestriction: [Human]
+  coloring:
+    default:
+      type: !type:TattooColoring
+  sprites:
+  - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
+    state: mouse
